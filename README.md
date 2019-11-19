@@ -3,7 +3,7 @@ Documentação Pública das APIs Flix
 
 ## Autorização
 
-Todas as apis necessitam de um par de tokens de autorização que devem ser passados no `HEADER` da requisição. Este par de tokens pode ser obtido através do `Dashboard FLIX.`. Cada perfil possui seu par de tokens que permitem acessar funçoes diferentes na API.
+Todas as APIs necessitam de um par de tokens de autorização que devem ser passados no `HEADER` da requisição. Este par de tokens pode ser obtido através do `Dashboard FLIX.`. Cada perfil possui seu par de tokens que permitem acessar funções diferentes na API.
 
 
 

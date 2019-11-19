@@ -17,7 +17,7 @@
     "USU_NOME":"Nome",
     "USU_SOBRENOME":"Sobrenome",
     "USU_CPF":"CPF",
-    "custom"{
+    "custom":{
 		"seucampo":"seu valor",
     	"id_parceiro":023456,
 	}
@@ -45,7 +45,7 @@
 
 ## Buscar Usuários
 
-> Retorna todos os usuários cadstrados por você
+> Retorna todos os usuários cadastrados por você
 
 **Perfis Autorizados:** Parceiros
 
