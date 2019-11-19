@@ -26,11 +26,20 @@
 
 **Método**:  `POST`
 
+**Parâmetros:** 
+
+- *PRO_ID* - ID do produto
+- *CON_ID* - ID do condomínio
+- 
+
+
+
 **Resultado**: 
 
 ```json
 {
-    status:"OK"
+    "status":"OK"
+    
 }
 ```
 
