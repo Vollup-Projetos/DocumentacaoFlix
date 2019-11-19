@@ -45,16 +45,13 @@ Verifica se a FLIX. atende a um determinado condomínio e retorna os produtos di
 {
     "status":"OK",
     "message":"Produtos disponíveis",
-    "produtos"[
+    "produtos":[
     	{
     		"PRO_ID":0,
     		"PRO_TITULO":"Nome do Produto",
    	        "PRO_DESCRICAO":"Descricao do Produto",
     		"PRO_VALOR":00.00
-		},
-		{
-            //...
-        }
+		} 		 
 	]
 }
 ```
