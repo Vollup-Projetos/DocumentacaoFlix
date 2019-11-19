@@ -22,7 +22,7 @@ Todas as apis necessitam de um par de tokens de autorização que devem ser pass
 
 ## Administradoras
 
-> Administradoras podem cadastrar e atualizar condomínios atrav's da API
+> Administradoras podem cadastrar e atualizar condomínios através da API
 
 ##### Autenticação 
 
@@ -52,11 +52,15 @@ Todas as apis necessitam de um par de tokens de autorização que devem ser pass
 
 # APIs
 
-- [Produtos](produtos.md) - API para listagem e compra de produtos;
+- [Produtos](Produtos.md) - API para listagem e compra de produtos;
 
-- [Usuario](usuario.md) - API para criação e consulta de usuários;
+- [Usuario](Usuario.md) - API para criação e consulta de usuários;
 
   
-
-
+  
+  ```
+  
+  ```
+  
+  
 

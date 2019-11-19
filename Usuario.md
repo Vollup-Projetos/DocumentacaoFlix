@@ -58,7 +58,7 @@
 - *USU_NOME*  - Filtra usuários a partir do nome;
 - *USU_SOBRENOME* - Filtra usuários a partir do sobrenome;
 
-  OBS.: Qualquer outro parâmetro adicionado a `QueryString` será considerado um `c
+  OBS.: Qualquer outro parâmetro adicionado a `QueryString` será considerado um `custom`
 
 
 
