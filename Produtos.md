@@ -1,28 +1,16 @@
 # Cobertura e Produtos
 
+ 
 
+## Verificar Cobertura 
 
-## Autorização
+>  Verifica se a FLIX. atende a um determinado condomínio e retorna os produtos disponíveis para ele
 
-É necessário passar no `HEADER` da requisição o parametro `token_usuario`
-
-```json
-{
-    "token_usuario":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-}
-```
-
-
-
-## Verificar Cobertura
-
-Verifica se a FLIX. atende a um determinado condomínio e retorna os produtos disponíveis para ele
+**Perfis Autorizados:**  Parceiros
 
 **Endpoint**: `/api/produtos/cobertura/{cep}/{numero}`
 
 **Método**:  `GET`
-
-
 
 **Parâmetros**
 
@@ -63,7 +51,9 @@ Verifica se a FLIX. atende a um determinado condomínio e retorna os produtos di
 
 
 
-## Trazer Produtos
+## Trazer Todos os Produtos
+
+**Perfis Autorizados:** Seguradoras
 
 **Endpoint**: `/api/produtos`
 
@@ -84,7 +74,9 @@ Verifica se a FLIX. atende a um determinado condomínio e retorna os produtos di
 
 ## Contratar um Produto
 
-Envia os dados para uma compra recorrente 
+> Envia os dados para uma compra recorrente 
+
+**Perfis Autorizados:** Parceiros
 
 **Endpoint**: `/api/produtos/contratar`
 
@@ -99,7 +91,7 @@ Envia os dados para uma compra recorrente
     "USU_ID":0
     "card"{
     	"number":"4140685800186323",
-    	"brand":"visa", //mastercard etc
+    	"brand":"visa",  
     	"cvv":"123",
     	"exp_y":"2021",
     	"exp_m":"04",
