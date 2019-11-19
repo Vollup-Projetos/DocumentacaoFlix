@@ -12,7 +12,7 @@
 
 ```json
 {
-    token_usuario:"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "token_usuario":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 }
 ```
 
@@ -20,17 +20,33 @@
 
 ## Contratar um Produto
 
+Envia os dados para uma compra recorrente 
+
 
 
 **Endpoint**: `/api/produtos/contratar`
 
 **Método**:  `POST`
 
-**Parâmetros:** 
+**FormBody:** 
 
-- *PRO_ID* - ID do produto
-- *CON_ID* - ID do condomínio
-- 
+```json
+{
+    "CON_ID":0,
+    "PRO_ID":0,
+    "USU_ID":0
+    "card"{
+    	"number":"4140685800186323",
+    	"brand":"visa", //mastercard etc
+    	"cvv":"123",
+    	"exp_y":"2021",
+    	"exp_m":"04",
+    	"name":"nome do impresso no cartão"
+	}
+}  
+```
+
+
 
 
 
@@ -38,8 +54,7 @@
 
 ```json
 {
-    "status":"OK"
-    
+    "status":"OK"    
 }
 ```
 
