@@ -7,11 +7,7 @@ Documentação Publica das APIs Flix
 
 
 
-- [Cobertura](Cobertura.md) - Api para verificação de condomínios em um endereço.
-
-- [Pagamento](pagamento.md) - 
-
-- [Produtos](produtos.md)
+- [Produtos](produtos.md) - API para listagem e compra de produtos;
 
   
 
